@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url('./asset/image/time-organization-concept-close-up.jpg');
+    background-size: cover;
+background-repeat: no-repeat;
+
+}
+html{
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    position: relative;
+    top: 15vh;
+    background-color: rgb(147, 159, 152);
+    width: 40vw;
+    /* width: auto; */
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    opacity: 0.8;
+    border-radius: 30px;
+
+}
+
+.addtodo {
+    width: 100px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.addtodo:hover {
+    color: blue;
+}
+
+.feild {
+    width: auto;
+    padding: 5px;
+    margin: auto;
+    border-radius: 7px;
+    color: rgb(159, 111, 0);
+    user-select: none;
+}
+.delete{
+    width: 80px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 15px;
+}.delete:hover{
+color: rgb(229, 0, 0);
+
+}
+.edit{
+    width: 80px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 15px;
+}.edit:hover{
+color: rgb(21, 134, 142);
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+#foot{
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+}
+
+.para{
+    font-size: 0.8rem;
+}
+
+#git{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left:15px ;
+    margin-bottom: 0px;
+    
+}
